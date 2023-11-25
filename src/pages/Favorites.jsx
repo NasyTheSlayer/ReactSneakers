@@ -32,7 +32,7 @@ function Favorites({ items }) {
             />
             <b className="mb-10">Закладок нет</b>
             <p>Вы ничего не добавляли в закладки</p>
-            <Link to="/">
+            <Link to="/react-sneakers/">
               <button>
                 <img src="img/arrow.svg" alt="arrow" />
                 Вернуться назад
