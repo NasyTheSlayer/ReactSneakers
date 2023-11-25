@@ -150,11 +150,11 @@ function App() {
                 isLoading={isLoading}
               />
             }
-            path="/"
+            path=""
             exact
           />
-          <Route element={<Favorites />} path="/favorites" exact />
-          <Route element={<Orders />} path="/orders" exact />
+          <Route element={<Favorites />} path="favorites" exact />
+          <Route element={<Orders />} path="orders" exact />
         </Routes>
       </div>
     </AppContext.Provider>
