@@ -1,0 +1,89 @@
+.carousel {
+  position: relative;
+  width: 960px;
+  height: 310px;
+
+  background-color: #f4efe9;
+  border-radius: 20px;
+  margin-inline: auto;
+
+  &__content {
+    img {
+      padding-top: 16px;
+      padding-left: 20px;
+    }
+
+    h3 {
+      margin: 0;
+      padding-top: 32px;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 121.052632%;
+      padding-left: 60px;
+
+      color: #8bb43c;
+
+      span {
+        color: #000;
+      }
+    }
+
+    button {
+      width: 177px;
+      height: 47px;
+
+      margin-top: 10px;
+      margin-left: 58px;
+
+      cursor: pointer;
+      background-color: #a5d364 !important;
+      color: #fff;
+      border-radius: 110px;
+    }
+  }
+
+  &__button--1 {
+    position: absolute;
+    top: 132px;
+    left: -35px;
+
+    background-color: transparent !important;
+    cursor: pointer;
+
+    transform: rotate(180deg);
+  }
+
+  &__button--2 {
+    position: absolute;
+    top: 132px;
+    right: -35px;
+
+    background-color: transparent !important;
+    cursor: pointer;
+  }
+
+  .slide-image {
+    width: 640px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    background-size: cover;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  button {
+    background-color: #f4efe9;
+    border: none;
+  }
+}
