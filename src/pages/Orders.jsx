@@ -45,7 +45,7 @@ export function Orders() {
             />
             <b className="mb-10">У вас нет заказов</b>
             <p>Вам нужно оформить заказ</p>
-            <Link to="/react-sneakers/">
+            <Link to="/react-sneakers">
               <button>
                 <img src="img/arrow.svg" alt="arrow" />
                 Вернуться назад
