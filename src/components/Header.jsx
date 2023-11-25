@@ -5,7 +5,7 @@ function Header(props) {
     <header className="d-flex justify-between align-center p-40">
       <Link to="/">
         <div className="d-flex align-center">
-          <img width={40} height={40} src="./img/logo.png" alt="headerLogo" />
+          <img width={40} height={40} src="img/logo.png" alt="headerLogo" />
           <div>
             <h3 className="text-uppercase">React Sneakers</h3>
             <p className="opacity-5">Магазин лучших кроссовок</p>
@@ -18,7 +18,7 @@ function Header(props) {
             className="cu-p"
             width={18}
             height={18}
-            src="./img/cart.svg"
+            src="img/cart.svg"
             alt="Basket"
           />
           <span className="cu-p">0 руб</span>
@@ -29,7 +29,7 @@ function Header(props) {
               className="mr-20 cu-p"
               width={18}
               height={18}
-              src="./img/heart.svg"
+              src="img/heart.svg"
               alt="Favorites"
             />
           </Link>
@@ -40,7 +40,7 @@ function Header(props) {
               className="cu-p"
               width={18}
               height={18}
-              src="./img/user.svg"
+              src="img/user.svg"
               alt="User"
             />
           </Link>

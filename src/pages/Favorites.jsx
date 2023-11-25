@@ -27,14 +27,14 @@ function Favorites({ items }) {
               className="mb-30"
               width={70}
               height={70}
-              src="./img/not-favorite.jpg"
+              src="img/not-favorite.jpg"
               alt="Sad smile"
             />
             <b className="mb-10">Закладок нет</b>
             <p>Вы ничего не добавляли в закладки</p>
             <Link to="/">
               <button>
-                <img src="./img/arrow.svg" alt="arrow" />
+                <img src="img/arrow.svg" alt="arrow" />
                 Вернуться назад
               </button>
             </Link>

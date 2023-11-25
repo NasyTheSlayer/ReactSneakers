@@ -6,9 +6,9 @@ export const Carousel = () => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const images = [
-    './img/Carousel-1.png',
-    './img/Carousel-1.png',
-    './img/Carousel-1.png'
+    'img/Carousel-1.png',
+    'img/Carousel-1.png',
+    'img/Carousel-1.png'
   ];
 
   const nextSlide = () => {
@@ -17,7 +17,7 @@ export const Carousel = () => {
       setTimeout(() => {
         setCurrentSlide((currentSlide + 1) % images.length);
         setIsAnimating(false);
-      }, 500); // Час анімації в мілісекундах
+      }, 500);
     }
   };
 
@@ -27,14 +27,14 @@ export const Carousel = () => {
       setTimeout(() => {
         setCurrentSlide((currentSlide - 1 + images.length) % images.length);
         setIsAnimating(false);
-      }, 500); // Час анімації в мілісекундах
+      }, 500);
     }
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // Змінюйте слайд кожні 3 секунди (додайте виклик clearInterval для зупинки)
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [currentSlide]);
@@ -42,7 +42,7 @@ export const Carousel = () => {
   return (
     <div className="carousel">
       <div className="carousel__content">
-        <img src="./img/logo-carousel.png" alt="" />
+        <img src="img/logo-carousel.png" alt="" />
         <h3>
           Stan Smith 
           <span>,</span>
@@ -52,7 +52,7 @@ export const Carousel = () => {
         <button className="carousel__button">Купить</button>
       </div>
       <button className="carousel__button--1" onClick={prevSlide}>
-        <img src="./img/arrow-slider.svg" alt="arrow" />
+        <img src="img/arrow-slider.svg" alt="arrow" />
       </button>
       <img
         className={isAnimating ? 'slide-image fade-out' : 'slide-image fade-in'}
@@ -60,7 +60,7 @@ export const Carousel = () => {
         alt={`Slide ${currentSlide + 1}`}
       />
       <button className="carousel__button--2" onClick={nextSlide}>
-        <img src="./img/arrow-slider.svg" alt="arrow" />
+        <img src="img/arrow-slider.svg" alt="arrow" />
       </button>
     </div>
   );
