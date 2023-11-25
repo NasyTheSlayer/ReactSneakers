@@ -150,7 +150,7 @@ function App() {
                 isLoading={isLoading}
               />
             }
-            path=""
+            path="/"
             exact
           />
           <Route element={<Favorites />} path="favorites" exact />
