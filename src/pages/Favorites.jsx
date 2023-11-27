@@ -34,7 +34,7 @@ function Favorites({ items }) {
             <p>Вы ничего не добавляли в закладки</p>
             <Link to="/react-sneakers">
               <button>
-                <img src="/public/img/arrow.svg" alt="arrow" />
+                <img src="img/arrow.svg" alt="arrow" />
                 Вернуться назад
               </button>
             </Link>

@@ -40,14 +40,14 @@ export function Orders() {
               className="mb-30"
               width={70}
               height={70}
-              src="public/img/not-orders.jpg"
+              src="img/not-orders.jpg"
               alt="Sad smile"
             />
             <b className="mb-10">У вас нет заказов</b>
             <p>Вам нужно оформить заказ</p>
             <Link to="/react-sneakers">
               <button>
-                <img src="./publicimg/arrow.svg" alt="arrow" />
+                <img src="./public/img/arrow.svg" alt="arrow" />
                 Вернуться назад
               </button>
             </Link>
