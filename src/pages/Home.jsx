@@ -36,7 +36,7 @@ function Home({
           {searchValue && (
             <img
               onClick={() => setSearchValue("")}
-              className=" clear cu-p"
+              className="clear cu-p"
               src="img/btn-remove.svg"
               alt="Clear"
             />
