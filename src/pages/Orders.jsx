@@ -47,7 +47,7 @@ export function Orders() {
             <p>Вам нужно оформить заказ</p>
             <Link to="/react-sneakers">
               <button>
-                <img src="img/arrow.svg" alt="arrow" />
+                <img src="../img/arrow.svg" alt="arrow" />
                 Вернуться назад
               </button>
             </Link>
