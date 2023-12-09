@@ -25,7 +25,7 @@ export function Orders() {
         <h1>Мои заказы</h1>
       </div>
       <div className="d-flex flex-wrap">
-        {isLoading ? (
+        {orders.length > 0 ? (
           (isLoading ? [...Array(8)] : orders)
             .map((item, index) => (
               <Card 
