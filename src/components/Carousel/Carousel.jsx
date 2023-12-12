@@ -49,7 +49,7 @@ export const Carousel = () => {
           <br />
           <span>Forever!</span>  
         </h3>
-        <button className="carousel__button">Купить</button>
+        <button className="carousel__button">Купити</button>
       </div>
       <button className="carousel__button--1" onClick={prevSlide}>
         <img src="img/arrow-slider.svg" alt="arrow" />

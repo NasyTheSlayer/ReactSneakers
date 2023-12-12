@@ -14,7 +14,7 @@ export function Orders() {
         setOrders(data.reduce((prev, obj) => [...prev, ...obj.items], []));
         setIsLoading(false)
       } catch (error) {
-        alert('Ошибка при запросе заказов')
+        alert('Помилка при запиті замовлень')
       };
     })();
   }, [])
@@ -22,7 +22,7 @@ export function Orders() {
   return (
     <div className="content p-40">
       <div className="d-flex justify-between align-center mb-40">
-        <h1>Мои заказы</h1>
+        <h1>Мої замовлення</h1>
       </div>
       <div className="d-flex flex-wrap">
         {orders.length > 0 ? (
@@ -42,12 +42,12 @@ export function Orders() {
               src="/react-sneakers/img/not-orders.jpg"
               alt="Sad smile"
             />
-            <b className="mb-10">У вас нет заказов</b>
-            <p>Вам нужно оформить заказ</p>
+            <b className="mb-10">У вас немає замовлень</b>
+            <p>Вам потрібно оформити замовлення</p>
             <Link to="/react-sneakers/">
               <button>
                 <img src="/react-sneakers/img/arrow.svg" alt="arrow" />
-                Вернуться назад
+                Повернутися назад
               </button>
             </Link>
           </div>

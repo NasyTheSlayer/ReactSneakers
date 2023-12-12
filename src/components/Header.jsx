@@ -8,7 +8,7 @@ function Header(props) {
           <img width={40} height={40} src="img/logo.png" alt="headerLogo" />
           <div>
             <h3 className="text-uppercase">React Sneakers</h3>
-            <p className="opacity-5">Магазин лучших кроссовок</p>
+            <p className="opacity-5">Магазин найкращих кросівок</p>
           </div>
         </div>
       </Link>
@@ -21,7 +21,7 @@ function Header(props) {
             src="img/cart.svg"
             alt="Basket"
           />
-          <span className="cu-p">0 руб</span>
+          <span className="cu-p">0 грн</span>
         </li>
         <li>
           <Link to="/favorites">

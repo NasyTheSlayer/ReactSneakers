@@ -9,7 +9,7 @@ function Favorites({ items }) {
   return (
     <div className="content p-40">
       <div className="d-flex justify-between align-center mb-40">
-        <h1>Мои закладки</h1>
+        <h1>Мої закладки</h1>
       </div>
       <div className="d-flex flex-wrap">
         {favorites.length > 0 ? (
@@ -30,12 +30,12 @@ function Favorites({ items }) {
               src="/react-sneakers/img/not-favorite.jpg"
               alt="Sad smile"
             />
-            <b className="mb-10">Закладок нет</b>
-            <p>Вы ничего не добавляли в закладки</p>
+            <b className="mb-10">Закладок немає</b>
+            <p>Ви нічого не додавали до закладок</p>
             <Link to="/react-sneakers/">
               <button>
                 <img src="/react-sneakers/img/arrow.svg" alt="arrow" />
-                Вернуться назад
+                Повернутися назад
               </button>
             </Link>
           </div>
