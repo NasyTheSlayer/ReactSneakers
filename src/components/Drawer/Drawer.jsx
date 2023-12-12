@@ -109,7 +109,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
             description={
               isOrderComplete
                 ? `Ваше замовлення #${orderId} скоро буде передано кур'єрській доставці`
-                : "Додати хоча б одну пару кросівок, щоб зробити замовлення."
+                : "Додайте хоча б одну пару кросівок, щоб зробити замовлення."
             }
             image={
               isOrderComplete ? "img/complete-order.jpg" : "img/empty-cart.jpg"
