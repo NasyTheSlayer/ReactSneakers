@@ -86,7 +86,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
                 <li>
                   <span>Разом:</span>
                   <div></div>
-                  <b>{totalPrice} руб.</b>
+                  <b>{totalPrice} грн.</b>
                 </li>
                 <li>
                   <span>Податок 5%:</span>
