@@ -1,6 +1,6 @@
 # React Sneakers
 
-- [DEMO LINK](https://nasytheslayer.github.io/react-sneakers/)
+- [DEMO LINK](https://nasytheslayer.github.io/ReactSneakers/)
 
 - [Design link](https://www.figma.com/file/fw0toTyXMwM1y4WIe0YFrJ/React-Projects?node-id=0%3A1)
 
@@ -24,12 +24,12 @@ $ nvm use 14
 
 2. Clone the repository to your local machine, open terminal (GitBash for Windows users) and clone repo with command bellow:
 ```
-$ git clone https://github.com/NasyTheSlayer/react-sneakers.git
+$ git clone https://github.com/NasyTheSlayer/ReactSneakers.git
 ```
 
 3. Open project in terminal (or GitBash for Windows users):
 ```
-$ code react-sneakers
+$ code ReactSneakers
 ```
 
 4. Set up project and install necessary packages in the code-editor you use:
